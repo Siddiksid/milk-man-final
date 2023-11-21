@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+#cow {
+  margin: 10px;
+}
+#cow {
+  border: none;
+  cursor: pointer;
+}
+
+#bottle-container,
+#cash-container {
+  margin: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+}
+#sellMilk {
+  visibility: hidden;
+}
+#cash-counter {
+  color: green;
+}
+#buy-container button {
+  visibility: hidden;
+  color: red;
+}
+#buy-container {
+  display: flex;
+  align-items: center;
+}
+#last-container {
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+
+  gap: 1rem;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+#last-container div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+#last-container div span:last-child {
+  border: 1px solid #000;
+  border-radius: 10px;
+  color: yellow;
+  background-color: grey;
+  padding-inline: 10px;
+  padding-block: 3px;
+}
